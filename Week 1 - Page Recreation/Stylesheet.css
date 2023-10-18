@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('Images/Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.logo img:hover{
+    transition: 0.7s;
+    box-shadow: 4px 4px black;
+}
+.headerContents{
+    margin-left: 40px;
+}
+.headerContents ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.headerContents li {
+    display: inline;
+    margin-right: 20px;
+    padding: 5px;
+}
+.headerContents a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.headerContents a:hover{
+    letter-spacing: 1px;
+    text-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+.icons{
+    margin-left: 700px;
+}
+.icons i {
+    font-size: 30px;
+    margin-left: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+.icons i:hover{
+    text-shadow: 6px 6px black;
+    transition: 0.5s;
+}
+
+/* contents */
+.title{
+    margin: 20px;
+    text-align: center;
+}
+.cards{
+    padding: 0;
+    margin: 40px 12% 20px 12%;
+    width: 100%;
+}
+.rowOne,
+.rowTwo{
+    display: flex;
+    padding: 10px;
+}
+.rowTwo{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 100%;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5{
+    width: 24%;
+    height: 35%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 2px 2px grey;
+    margin-left: 20px;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover{
+    box-shadow: 5px 5px grey;
+    border-radius: 20px;
+    transition: 0.6s;
+    color: white;
+    background-color: black;
+}
+.card1Title,
+.card2Title,
+.card3Title,
+.card4Title,
+.card5Title{
+    text-align: center;
+    margin: 10px;
+}
+.card1List,
+.card2List,
+.card3List,
+.card4List,
+.card5List{
+    margin-left: 60px;
+}
+.card1List ul li,
+.card2List ul li,
+.card3List ul li,
+.card4List ul li,
+.card5List ul li{
+    padding: 6px;
+}
+.viewButton{
+    margin: 0 40% 20px 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+    color: green;
+    background-color: white;
+}
+.viewButton:hover{
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    box-shadow: 3px 3px grey;
+    transition: 1s;
+}
+
+/* footer */
+/* footer{
+    background-color: aqua;
+} */
+.footer1{
+    display: flex;
+    margin-left: 10%;
+}
+.imageOne,
+.imageTwo,
+.textOne,
+.textTwo{
+    margin-left: 7%;
+}
+.footer2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.emailField{
+    margin-left: 10%;
+}
+.label{
+    font-size: 20px;
+    
+}
+.emailBox{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    letter-spacing: 1px;
+    
+    font-size: 20px;
+}
+.emailBox:hover{
+    box-shadow: 2px 2px black;
+    transition: 0.4s;
+}
+#check{
+    margin-left: -10%;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.instaLogo{
+    margin-right: 10%;
+    font-size: 30px;
+    color: rgb(79,91,213);
+    cursor: pointer;
+}
+.footer3{
+    text-align: center;
+    bottom: 0;
+    margin-top: 20px;
+}

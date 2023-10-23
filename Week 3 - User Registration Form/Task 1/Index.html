@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vault of Codes</title>
+    <link rel="stylesheet" href="Stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="Script.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h2>REGISTRATION FORM</h2>
+    </div>
+    <div class="form">
+        <form action="">
+            <input type="text" name="firstName" class="fname" placeholder="Firstname" required>
+            <input type="text" name="lastName" class="lname" placeholder="Lastname" required>
+            <br>
+            <input type="email" name="Email" class="email" placeholder="Email">
+            <br>
+            <div class="gender">
+                <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female</label>
+            </div>
+            <br>
+            <label for="DOB">D.O.B</label><input type="date" name="DOB" id="dob">
+            <br>
+            <div class="upload">
+                <input type="file" name="Profile" id="fileUpload">
+                <br>
+                <label for="profile">Upload Your Profile Picture</label></div>
+            <br>
+            <input type="password" name="password" class="pword" id="pword" placeholder="New Password" onkeyup="myFunction3()" required>
+            <i class="far fa-eye" id="eye" onclick="myFunction()"></i>
+            <p id="instructionMessage" style="color: red;"></p>
+            <br>
+            <input type="password" name="confirmPassword" class="pword" id="pword2" placeholder="Confirm Password" onkeyup="myFunction4()" required>
+            <i class="far fa-eye" id="eye" onclick="myFunction2()"></i>
+            <p id="instructionMessage2" style="color: red;"></p>
+            <br>
+            <div class="tandc">
+                <input type="checkbox" name="TC" class="checkBox"><label for="terms">I agree the terms and conditions</label></div>
+            <br>
+            <button name="signup" class="signUpButton" id="signUpButton">SIGNUP</button>
+        </form>
+    </div>
+</body>
+</html>

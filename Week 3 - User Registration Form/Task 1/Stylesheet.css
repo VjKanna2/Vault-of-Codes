@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('Background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* form */
+.title{
+    text-align: center;
+    text-shadow: 2px 2px grey;
+    letter-spacing: 1px;
+    margin-top: 3%;
+    font-size: 25px;
+}
+@media screen and (max-width: 900px) {
+    .title{
+        font-size: 20px;
+    }
+}
+.form{
+    border:2px solid black;
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3% 31% 5% 31%;
+    box-sizing: border-box;
+}
+.form:hover{
+    transition: 1s;
+    box-shadow: 2px 2px 3px 3px white;
+
+}
+@media screen and (max-width:1300px) {
+    .form{
+        width: 70%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 900px){
+    .form{
+        width: 80%;
+        margin: auto;
+    }
+}
+.fname,
+.lname{
+    width: 39.5% !important;
+    margin-bottom: 3%;
+}
+.fname{
+    margin-right: 3px;
+}
+.lname{
+    margin-left: 3px;
+}
+.email{
+    margin-bottom: 3%;
+}
+.fname,
+.lname,
+.email,
+.pword{
+    width: 85%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}
+.fname:hover,
+.lname:hover,
+.email:hover,
+.pword:hover{
+    letter-spacing: 1.5px;
+    transition: 1s;
+}
+.pword{
+    margin-left: -5px;
+}
+#eye{
+    margin-left: -30px;
+    cursor: pointer;
+}
+#dob{
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.upload{
+    margin-top: 3%;
+}
+#fileUpload{
+    padding: 10px;
+    margin-left: 15%;
+    align-items: center;
+}
+.tandc{
+    margin-right: 37%;
+    margin-bottom: 3%;
+}
+@media screen and (max-width :1000px) {
+    .tandc{
+        margin: auto;
+    }
+}
+.signUpButton{
+    padding: 12px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    font-weight: 700;
+    cursor: pointer;
+}
+.signUpButton:hover{
+    transition: 1s;
+    color: white;
+    background-color: green;
+    letter-spacing: 1.2px;
+    border: 2px solid white;
+}
